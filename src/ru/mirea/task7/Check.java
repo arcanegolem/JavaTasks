@@ -2,7 +2,10 @@ package ru.mirea.task7;
 
 public class Check {
     public static void main(String[] args){
-        Shape s1 = new Circle(5.5, "RED", false); // Upcast Circle to Shape
+
+    }
+}
+        /*Shape s1 = new Circle(5.5, "RED", false); // Upcast Circle to Shape
         System.out.println(s1); // which version?
         System.out.println(s1.getArea()); // which version?
         System.out.println(s1.getPerimeter()); // which version?
@@ -49,4 +52,4 @@ public class Check {
         System.out.println(sq1.getSide());
         System.out.println(sq1.getLength());
     }
-}
+*/
