@@ -1,6 +1,6 @@
-/*package ru.mirea.task7;*./
+package ru.mirea.task7;
 
-/*public class Check {
+public class Check {
     public static void main(String[] args){
         Shape s1 = new Circle(5.5, "RED", false); // Upcast Circle to Shape
         System.out.println(s1); // which version?
@@ -50,4 +50,3 @@
         System.out.println(sq1.getLength());
     }
 }
-*/
