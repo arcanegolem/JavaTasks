@@ -1,4 +1,4 @@
-package ru.mirea.task7;
+/*package ru.mirea.task7;
 
 public class Check {
     public static void main(String[] args){
@@ -50,3 +50,4 @@ public class Check {
         System.out.println(sq1.getLength());
     }
 }
+*/
