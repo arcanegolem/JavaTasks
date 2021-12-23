@@ -15,27 +15,24 @@ public class Task1_1 {
 
     public static int sum(int[] array, String cycle){
         int sum = 0, cnt = 0;
-        switch (cycle){
-            case "for":{
-                for (int value : array){
+        switch (cycle) {
+            case "for" -> {
+                for (int value : array) {
                     sum += value;
                 }
-                break;
             }
-            case "while":{
-                while (cnt < array.length){
+            case "while" -> {
+                while (cnt < array.length) {
                     sum += array[cnt];
                     cnt++;
                 }
-                break;
             }
-            case "do while":{
-                do{
+            case "do while" -> {
+                do {
                     sum += array[cnt];
                     cnt++;
                 }
                 while (cnt < array.length);
-                break;
             }
         }
         return sum;

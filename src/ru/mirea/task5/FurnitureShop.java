@@ -7,7 +7,27 @@ public class FurnitureShop {
     static ArrayList<Table> tables = new ArrayList<Table>();
 
     public static void main(String[] args){
+        Chair ch1 = new Chair("chair 1", "wood", 10, 12, 120);
+        Chair ch2 = new Chair("chair 2", "steel", 12, 15, 125);
 
+        Table tb1 = new Table("table 1", "wood", 20, 25, 150);
+        Table tb2 = new Table("table 2", "plastic", 15, 15, 100);
+
+        addToShop(ch1);
+        addToShop(ch2);
+        addToShop(tb1);
+        addToShop(tb2);
+
+        System.out.println("Показ товаров по типу мебели");
+        showByType("chair");
+
+        System.out.println("Показ товаров по материалу");
+        showByMaterial("wood");
+
+        System.out.println("Показ товаров по типу мебели и материалу");
+        showByTypeAndMaterial("table", "plastic");
+
+        buy("table 1");
     }
 
     public static void addToShop(Chair chair){

@@ -17,11 +17,18 @@ public class t16 {
             if(tmp == old){
                 cn += 1;
                 cn = maxCount(tmp, cn);
+                return cn;
             }
             if(tmp > old){
                 cn = 1;
                 cn = maxCount(tmp, cn);
+                return cn;
             }
+            else {
+                cn = maxCount(old, cn);
+                return cn;
+            }
+
         }
 
         return cn;
